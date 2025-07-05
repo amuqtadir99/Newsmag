@@ -7,20 +7,20 @@ const mockNewsData = {
     {
       title: "Global Climate Summit Reaches Historic Agreement",
       description: "World leaders unite on ambitious climate targets for 2030, marking a significant step in environmental policy.",
-      urlToImage: "https://images.unsplash.com/photo-1569163139394-de4e4f43e4e5?w=400",
-      url: "#"
+      urlToImage: "https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/1594844729.6289.jpg",
+      url: "https://www.un.org/en/academic-impact/nations-reach-historic-agreement-climate-change"
     },
     {
       title: "Breakthrough in Quantum Computing Research",
       description: "Scientists achieve new milestone in quantum computing, bringing practical applications closer to reality.",
-      urlToImage: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400",
-      url: "#"
+      urlToImage: "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2025/03/28/TechnicalArticleGraphic_March2025_AdobeStock_399942734_edit.png?itok=r2Ii7HJ_",
+      url: "https://www.nist.gov/news-events/news/2025/04/quantum-breakthroughs-nist-sqms-lead-way"
     },
     {
       title: "International Space Station Welcomes New Crew",
       description: "Six astronauts from different nations begin their mission aboard the ISS for groundbreaking research.",
       urlToImage: "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=400",
-      url: "#"
+      url: "https://www.nasa.gov/news-release/nasa-to-welcome-fourth-private-astronaut-mission-to-space-station/"
     }
   ],
   technology: [
