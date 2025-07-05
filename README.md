@@ -13,7 +13,7 @@ A modern, responsive news magazine application built with React that fetches and
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-demo-link.com)
+[View Live Demo](https://effervescent-biscochitos-ff15c6.netlify.app/)
 
 ## 🛠️ Technologies Used
 
