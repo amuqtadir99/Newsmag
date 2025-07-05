@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Public Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+  }
+  
+
+.hover-underline:hover {
+  text-decoration: underline;
+  color: #0dcaf0 !important; 
+}
+
+
+  .news-item-card {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+
+  .news-item-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+/* Footer positioning */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+
+
+  @media (max-width: 767px) {
+    
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+    .navbar-nav .nav-link {
+      font-size: 1.25rem;
+    }
+    
+    .news-item-card {
+      text-align: center;
+    }
+  }
+  /* Additional mobile optimizations */
+@media (max-width: 576px) {
+  footer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  footer .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Hover effects for links */
+footer a:hover {
+  transform: translateY(-1px);
+  transition: transform 0.2s ease;
+}
