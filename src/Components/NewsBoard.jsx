@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import NewsItem from "./NewsItem";
+import NewsItem from "./Newsitem";
 
 // Mock news data for demo purposes
 const mockNewsData = {
